@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/inventorySys/static/css/main.fabca274.chunk.css",
+    "main.js": "/inventorySys/static/js/main.926a77fe.chunk.js",
+    "main.js.map": "/inventorySys/static/js/main.926a77fe.chunk.js.map",
+    "runtime-main.js": "/inventorySys/static/js/runtime-main.3a336174.js",
+    "runtime-main.js.map": "/inventorySys/static/js/runtime-main.3a336174.js.map",
+    "static/css/2.edeabf64.chunk.css": "/inventorySys/static/css/2.edeabf64.chunk.css",
+    "static/js/2.c1631dbd.chunk.js": "/inventorySys/static/js/2.c1631dbd.chunk.js",
+    "static/js/2.c1631dbd.chunk.js.map": "/inventorySys/static/js/2.c1631dbd.chunk.js.map",
+    "static/js/3.c75d9a59.chunk.js": "/inventorySys/static/js/3.c75d9a59.chunk.js",
+    "static/js/3.c75d9a59.chunk.js.map": "/inventorySys/static/js/3.c75d9a59.chunk.js.map",
+    "index.html": "/inventorySys/index.html",
+    "static/css/2.edeabf64.chunk.css.map": "/inventorySys/static/css/2.edeabf64.chunk.css.map",
+    "static/css/main.fabca274.chunk.css.map": "/inventorySys/static/css/main.fabca274.chunk.css.map",
+    "static/js/2.c1631dbd.chunk.js.LICENSE.txt": "/inventorySys/static/js/2.c1631dbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a336174.js",
+    "static/css/2.edeabf64.chunk.css",
+    "static/js/2.c1631dbd.chunk.js",
+    "static/css/main.fabca274.chunk.css",
+    "static/js/main.926a77fe.chunk.js"
+  ]
+}
