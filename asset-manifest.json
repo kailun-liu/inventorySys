@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/inventorySys/static/css/main.fabca274.chunk.css",
-    "main.js": "/inventorySys/static/js/main.926a77fe.chunk.js",
-    "main.js.map": "/inventorySys/static/js/main.926a77fe.chunk.js.map",
+    "main.js": "/inventorySys/static/js/main.31c711f1.chunk.js",
+    "main.js.map": "/inventorySys/static/js/main.31c711f1.chunk.js.map",
     "runtime-main.js": "/inventorySys/static/js/runtime-main.3a336174.js",
     "runtime-main.js.map": "/inventorySys/static/js/runtime-main.3a336174.js.map",
     "static/css/2.edeabf64.chunk.css": "/inventorySys/static/css/2.edeabf64.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.edeabf64.chunk.css",
     "static/js/2.c1631dbd.chunk.js",
     "static/css/main.fabca274.chunk.css",
-    "static/js/main.926a77fe.chunk.js"
+    "static/js/main.31c711f1.chunk.js"
   ]
 }
