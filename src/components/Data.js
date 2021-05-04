@@ -6,7 +6,7 @@ const numResults = 100
 const emptyTable = <div>There is no data available at the time.</div>
 
 
-const  Data = ({toggleEditSamples, onRowClick, items, showEditSamples, populateValues}) => {
+const  Data = ({toggleEditSamples, onRowClick, items, showEditSamples, populateValues, filterValue}) => {
 	
 	const headers = {
 	  tableActions: {
@@ -25,6 +25,7 @@ const  Data = ({toggleEditSamples, onRowClick, items, showEditSamples, populateV
 		<SmartDataTable
 		emptyTable={emptyTable}
 	    data={items}
+	    filterValue={filterValue}
 	    name="test-table"
 	    className="ui compact selectable table"
 	    sortable={true}

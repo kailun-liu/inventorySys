@@ -34,12 +34,16 @@ class App extends Component {
       showEditSamples:false,
       commodityname:'',
       stock:0,
-      items: itemList
+      items: itemList,
+      filterValue:''
     }
   }
 
   onTextBoxChange=(event)=>{
+    (event.target.id==='sampleID')?
     this.setState({sampleID: event.target.value})
+    :
+    this.setState({filterValue: event.target.value});
   }
 
   printLabelTriggeredByKeyboard=(event)=>{
@@ -137,10 +141,28 @@ class App extends Component {
         printLabelTriggeredByKeyboard={this.printLabelTriggeredByKeyboard} 
         printLabel={this.printLabel}
         toggleCreateSamples={this.toggleCreateSamples}
-        sampleID={this.state.sampleID}/>
-        {this.state.showCreateSamples? <CreateSamples createSamplesName={this.createSamplesName} createSamplesStock={this.createSamplesStock} createSamplesSubmit={this.createSamplesSubmit} toggleCreateSamples={this.toggleCreateSamples}/>: <div></div>}
-        {this.state.showEditSamples? <EditSamples createSamplesName={this.createSamplesName} createSamplesStock={this.createSamplesStock} editInventoryItem={this.editInventoryItem} _id={this.state._id} commodityname={this.state.commodityname} stock={this.state.stock} toggleEditSamples={this.toggleEditSamples}/>: <div></div>}
-        <Data populateValues={this.populateValues} items={this.state.items} showEditSamples={this.state.showEditSamples} toggleEditSamples={this.toggleEditSamples} onRowClick={this.onRowClick}/>
+        sampleID={this.state.sampleID}
+        />
+        {this.state.showCreateSamples? <CreateSamples createSamplesName={this.createSamplesName} 
+                                                      createSamplesStock={this.createSamplesStock} 
+                                                      createSamplesSubmit={this.createSamplesSubmit} 
+                                                      toggleCreateSamples={this.toggleCreateSamples}/>: 
+                                                      <div></div>}
+        {this.state.showEditSamples? <EditSamples createSamplesName={this.createSamplesName} 
+                                                  createSamplesStock={this.createSamplesStock} 
+                                                  editInventoryItem={this.editInventoryItem} _id={this.state._id} 
+                                                  commodityname={this.state.commodityname} 
+                                                  stock={this.state.stock} 
+                                                  toggleEditSamples={this.toggleEditSamples}/>: 
+                                                  <div></div>}
+        
+        <Data populateValues={this.populateValues} 
+              items={this.state.items} 
+              showEditSamples={this.state.showEditSamples} 
+              toggleEditSamples={this.toggleEditSamples} 
+              onRowClick={this.onRowClick}
+              filterValue={this.state.filterValue
+        }/>
       </div>
       );
     }
